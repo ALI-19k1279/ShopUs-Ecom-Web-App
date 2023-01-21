@@ -1,0 +1,33 @@
+{
+  "name": "tech-store",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Ali Rehman <ar03312366255@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.29.8",
+    "@sanity/core": "^2.29.5",
+    "@sanity/default-layout": "^2.29.8",
+    "@sanity/default-login": "^2.29.8",
+    "@sanity/desk-tool": "^2.29.8",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.29.8",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "eslint": "^8.6.0",
+    "next-connect": "^0.12.2",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.2.0"
+  }
+}
